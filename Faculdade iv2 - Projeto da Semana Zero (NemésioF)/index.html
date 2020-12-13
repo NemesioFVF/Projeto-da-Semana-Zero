@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logoMDLicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-cyan.min.css"/>
+    
+    <title> Projeto da Semana Zero - MDL</title>
+</head>
+
+<body>
+    <!-- Definir a classe "mdl-layout" para dizer que essa div se refere ao MDL  -->
+    <!-- já "mdl-js-layout" atribui alguns comportamentos basicos para que o MDL funcione -->
+    <!---mdl-layout--fixed-header permite que o topo da pagina seja responsivo ao minimizar ou maximizar a pagina-->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <img src="img/logoMDLicon.png" id="logo">
+                <span id="nomeMDL" class="mdl-layout-title"> <H3>MATERIAL DESIGN LITE - MDL</H3></span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    
+                    <a href="#o-que-e" class="mdl-navigation__link"><h4>O que é?</h4></a>
+                    <a href="#como-usar" class="mdl-navigation__link"><h4>Como usar?</h4></a>
+                    <a href="#discussao" class="mdl-navigation__link"><h4>Discussão</h4></a>
+                </nav>
+            </div>
+        </header>
+
+        <section id="o-que-e" >
+            <div id="div1">
+                <p>
+                    <h1>O que é?</h1>
+                   <h4 id="h4">
+                        <br>
+                        O que compreendi sobre Material Design Lite (MDL) e que se trata de uma framework criada pela Google lançada em 2015, foi construída junto com as diretrizes 
+                        e aplicadas na quinta versão do Android.
+                        <br>
+                        Seus componentes são criados em HTML, CSS e JavaScript, que possibilita a construção de páginas 
+                        e aplicativos WEB consistentes e funcionais que aderem os princípios modernos de WEB Desing.
+                        <br>
+                        A Biblioteca oferece controles de interfaces de usuário comuns, como caixa de seleção, campo de 
+                        textos, botões além de recursos mais aprimorados como cartões, layouts de colunas, slides, tipografia e templates.
+                        <br>
+                        <div>
+                        <img src="img/img1.png">
+                        <div id="mensagemLucas">
+                            Olá Lucas!  =D
+                            <br><br>
+                            Mude a Cor do Texto clicando em um dos botões e descubra o que está escrito.
+                            </div>
+                        </div>
+                    </h4>
+                    <button id="btcor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Mudar a Cor do Texto
+                    </button>
+                    <button id="btcor1" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                            Mudar a Cor do Texto
+                    </button>
+            </p>
+            </div>
+        </section>
+
+        <section id="como-usar" >
+            <div id="div2">
+                <p>
+                    <h1>Como usar?</h1>
+                   <h4 >
+                        <br>
+                        É gratuito, para trabalhar com esse framework basta adicionar os elementos:
+    
+                        <br><br>
+                                <code>1. &lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot;&gt;</code>
+                                <br>
+                                refere-se a família de fontes usados para os ícones.
+                                <br><br>
+                                <code>2. &lt;link rel=&quot;stylesheet&quot; href=&quot;https://code.getmdl.io/1.3.0/material.indigo-pink.min.css&quot;&gt;</code>
+                                <br>
+                                refere-se a paletas de cores dos elementos do site, pode ser personalizadas no site da MDL, link para CSS.
+                                <img src="img/img2.png">
+                                <br>
+                                <a id="sitecus" href="https://getmdl.io/customize/index.html" target="_blank">
+                                    Site para customizar
+                                </a>
+                                <br><br><br>
+                                <code>3. &lt;script defer src=&quot;https://code.getmdl.io/1.3.0/material.min.js&quot;&gt;&lt;/script&gt;</code>
+                                <br>
+                                refere-se ao link para o JavaSchipt.
+                                <br><br>
+                        Esses elementos vão dentro da tag head na página HTML, assim toda a biblioteca vai vir direto da CDN do Google, 
+                        mas nada impede de você baixar os arquivos, para trabalhar off-line e alterar da maneira que desejar.
+                        <br>
+                        Segundo a Google o nome desse framework, se dá pela facilidade de implementação e pelo tamanho do pacote que são de 27kb.
+                        
+                    </h4>
+                </p>
+            </div>
+        </section>
+
+        <section id="discussao" >
+            <div id="div3">
+                <p>
+                    <h1>Discussão</h1>
+                   <h4 id="uh4">
+                        <br>
+                        Ao longo da semana pesquisando sobre essa framework percebi que muitos aplicativos e sites utilizam o MDL, 
+                        como o WhatApp e até mesmo o site da Faculdade iv2 (posso estra enganado, mas o design, efeitos e animações são parecidos). 
+                        <br><br>
+                        Nunca tinha ouvido falar, gostei muito, realmente deixa as páginas bem mais modernas e funcional para os usuários; 
+                        e para a sua utilização o segredo está na declaração das classes, sempre que precisamos estilizar algum elemento colocamos:
+                        <br><br>
+                        1. mdl-NomeDoElemento (ex: mdl-layout; mdl-navigation)
+                        <br><br>
+                        e para o sub item do elemento colocamos:
+                        <br><br>
+                        2. mdl-NomeDoElemento__NomeDoSubElemento 
+                        <br>
+                        (ex: mdl-layout__header, mdl-navigation__link)
+                        <br>
+                            <div id="gifs">
+                                <img  id="gif1" src="img/gif1.gif" >
+                                <img src="img/gif2.gif">
+                            </div>
+                    </h4>
+                </p>
+            </div>
+
+            <footer>
+                <div>
+                    <h1>Faculdade iv2</h1>
+                    <a>Instrutor: Lucas Santos</a>
+                    <br>
+                    <a>Aluno: Nemésio Filho</a>
+                </div>
+                <div>
+                    <h1>Projeto da Semana Zero</h1>
+                    <a>Material Design Lite (MDL)</a>
+                </div>
+                <div id="fonte">
+                    <h1>Fonte de Pesquisa</h1>
+                    <a href="https://getmdl.io/" target="_blank">
+                        Material Design Lite 
+                    </a>
+                    <br>
+                    <a href="https://github.com/faculdadeiv2/beginners-projetos/tree/main/ProjetoSemana-0-Material-Design-Lite" target="_blank">
+                        GitHub: Lucas Santos
+                    </a> 
+                </div>
+            </footer>
+            
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+#nomeMDL {
+    text-align: center;
+    margin-left: 30px   
+}
+
+#logo {
+    width: 55px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#como-usar {
+    border-radius: 10px;
+    border: 3px solid rgb(233, 0, 166);
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+header {
+width: 100%;
+z-index: 1000;
+}
+
+body {
+
+    background: url('img/fundo.jpg') center / cover;
+}
+
+code {
+    background-color: rgb(167, 166, 166) ;
+}
+
+#h4 img{
+    margin-left: 20%;
+}
+
+#btcor{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#btcor1 {
+    margin-top: 2%;
+    margin-left: 3%;
+    color: blanchedalmond;
+
+}
+
+#div1 h1{
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color:  rgb(205, 73, 209);
+}
+
+#div2 h1 {
+    margin-top: 5%;
+    margin-right: 9%;
+    margin-left: 9%;
+    color:  rgb(205, 73, 209);
+}
+
+#div2 h4 {
+    
+    text-align: justify;
+    align-items: center;
+    margin-right: 9%;
+    margin-left: 9%;
+    color: rgb(255, 255, 255);
+}
+
+#div2 h4 code {
+     background-color: rgb(105, 103, 103);
+}
+
+#div2 h4 img {
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#div2 p{
+    margin-bottom: 5%;
+}
+
+#nomeMDL {
+    color: rgb(233, 0, 166);
+    margin-top: 1%;
+}
+
+
+#div3 h1{
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color:  rgb(205, 73, 209);
+}
+
+
+#div3 h4 {
+    
+    text-align: justify;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    
+}
+
+#h4 {
+    display: flex;
+    text-align: justify;
+    font-weight: 500;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#uh4 {
+    display: flex;
+    text-align: justify;
+    font-weight: 500;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#sitecus {
+
+    margin-left: 48%;
+    margin-top: 2%;
+    text-align: justify;
+    color: rgb(255, 0, 234);
+    text-decoration: none;
+}
+#sitecus:hover {
+    color: rgb(0, 255, 255);
+    transition: all 0.6s ease;
+}
+
+#gifs {
+    margin-top: 2%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+#gif1 {
+    margin-left: 19%;
+    margin-bottom: 5%;
+}
+
+.alterar {
+    color: rgb(0, 255, 255);
+}
+
+
+.alterar1 {
+    color: rgb(255, 255, 255);
+}
+
+#mensagemLucas {
+
+    background:transparent;
+    color: rgb(169, 225, 233);
+    width: 720px;
+    font-size: 20px;
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(245, 163, 37);
+    margin-left: 6%;
+    margin-bottom: 1%;
+    visibility: hidden;
+}
+
+footer {
+    background: transparent;
+    height: 200px;
+    padding: 3%;
+    color: rgb(255, 0, 234);
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: 3px solid rgb(245, 163, 37);
+  
+}
+
+footer h1{
+    font-size: 45px;
+}
+
+footer a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#fonte a:hover{
+    color: rgb(245, 163, 37);
+    transition: all 0.6s ease;
+}
+
+::-webkit-scrollbar{width: 7px;}
+::-webkit-scrollbar-track {background: #ffffff;}
+::-webkit-scrollbar-thumb{background: #585a58a6;}
+::-webkit-scrollbar-thumb:hover{background: #000000;}
